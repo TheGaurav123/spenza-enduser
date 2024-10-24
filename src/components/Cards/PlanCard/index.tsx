@@ -45,7 +45,7 @@ export default function PlanCard() {
         <h3>$9.50 USD</h3>
       </section>
       <div className="relative flex flex-col gap-6 my-3 text-sm">
-        {CardItems.map((item, index) => {
+        {CardItems.map((item: any, index: any) => {
           return (
             <section key={index} className="flex justify-between items-center">
               <span className="flex gap-1.5 items-center">

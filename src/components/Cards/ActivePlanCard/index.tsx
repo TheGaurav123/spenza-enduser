@@ -44,7 +44,7 @@ export default function ActivePlanCard() {
       <span className="text-sm">Expires in 10 Days</span>
       <div className="w-[100%] h-[.3px] rounded-full bg-activePlanCardText" />
       <div className="relative flex flex-col gap-6 my-3 text-sm">
-        {CardItems.map((item, index) => {
+        {CardItems.map((item: any, index: any) => {
           return (
             <section key={index} className="flex justify-between items-center">
               <span className="flex gap-1.5 justify-center items-center">
