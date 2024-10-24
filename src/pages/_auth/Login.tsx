@@ -30,7 +30,7 @@ export default function Login() {
         <img
           src={assets.logo || "logo.svg"}
           alt="logo"
-          className="w-[140px] h-[140px] lg:w-[170px] lg:h-[170px]"
+          className="w-[300px] h-[130px] lg:w-[300px] lg:h-[140px]"
         />
         <>
           <svg

@@ -22,7 +22,7 @@ export default function Header() {
         src={assets.logo || "logo.svg"}
         alt="logo"
         height={50}
-        className="w-[90px] h-[50px] md:h-[60px]"
+        className="w-[140px] h-[55px] md:h-[45px]"
       />
       <div className="flex gap-2 text-sm cursor-pointer">
         <Button
